@@ -8,18 +8,20 @@
     background-color: rgb(253, 214, 102);
     padding-left: 150px;
     padding-top: 50px;
+    display: flex;
 }
 
-#logo-img {
+#header a {
     width: 15%;
+    margin-right: 50px;
 }
 
 #banner {
     background-color: rgb(253, 214, 102);
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #banner-left {
@@ -27,7 +29,9 @@
 }
 
 #banner-left h1 {
-    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 48px;
 }
 
 p {
@@ -38,12 +42,16 @@ p {
     display: flex;
     justify-content: left;
     vertical-align: bottom;
-    margin: 20px 0;
+    margin: 10px 0;
+}
+
+#banner-reviews p {
+    font-size: 14px;
 }
 
 #banner-reviews img {
-    width: 75px;
-    padding-right: 15px;
+    width: 80px;
+    padding-right: 10px;
 }
 
 .add-to-chrome {
@@ -245,8 +253,9 @@ p {
 }
 
 .footer-quote {
-    width: 15%;
+    width: 12%;
     font-size: 12px;
+    padding: 0 10px;
 }
 
 .footer-quote img {
