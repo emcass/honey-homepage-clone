@@ -186,7 +186,11 @@ p {
     display: flex;
     text-align: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 25px;
+}
+
+.members-item {
+    padding: 0 25px;
 }
 
 .members-item h1 {
@@ -219,6 +223,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
+    padding: 10px 0;
 }
 
 #main-quote img {
@@ -246,6 +251,7 @@ p {
 
 .footer-quote img {
     height: 25px;
+    margin-bottom: 10px;
 }
 
 #footer-privacy {
